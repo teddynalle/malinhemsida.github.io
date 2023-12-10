@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,13 +21,7 @@
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container" id="home">
 <!-- knappar -->
-<div class="w3-black w3-round w3-display-bottomleft">
-    <audio id="audio">
-      <source src="malinHarpaIfitsmagic.mp3" type="audio/mpeg">
-    </audio>
-    <button id="playPauseBTN" onclick="playPause()" class="fa fa-play w3-button w3-round-large w3-hover-white"> Lyssna</button>
-    <button class="fa fa-stop w3-button w3-round-large w3-hover-white" onclick="stop()"> Stopp</button>
-  </div>
+
 
   <div class="w3-display-middle" style="white-space:nowrap;">
     <!-- själva texten (malinkjellgren) -->
@@ -41,149 +34,57 @@
 <!-- denna tar oss runt hemsidan -->
 
 <div class="w3-top-middle w3-center w3-black " style="bottom:-16px">
-  <a href="#portfolio" class="w3-black w3-hover-white w3-panel w3-border w3-round-xlarge w3-bar-item w3-button ">Projekt 2023</a>
   <a href="#kontakt" class="w3-panel w3-border w3-round-xlarge w3-black w3-hover-white w3-bar-item w3-button">Kontakta mig</a>
 </div>
 
-<!-- Container (About Section)
-<div class="w3-container w3-white">
-  <div class="w3-round w3-content w3-container w3-panel" id="mig">
-
-    <h2 class="w3-center"><b>Jag spelar bland annat...</b></h2>
-    </div>
-
-        <!--javascr
-    <p class="w3-center"><em>...Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</em></p>
--->
 
 
+  <div class="w3-display-container mySlides w3-margin w3-padding">
 
-    <div class="w3-row"></div>
-
-    </div>
+  <div class="w3-container">
+    <h1 class="w3-center w3-text-black">Hej!</h1>
+    <p class="w3-center w3-text-black">Jag arbetar som frilansande harpist och anlitas av
+symfoni- och operaorkestrar, av
+kammarmusikföreningar, körer och kyrkor.
+Jag ger egna solokonserter och ingår i flera olika
+kammarensembler.
+Det ligger mig också varmt om hjärtat att spela vid
+viktiga livshändelser såsom bröllop, födelsedagar och
+begravningar, och jag kommer gärna och förgyller
+med min harpa vid alla sorters event.
+</p>
+    <p class="w3-center w3-text-black"> Kontakta mig gärna så kommer jag och spelar!. </p>
   </div>
 
+<!--
+    <div class="w3-container">
+      <h2 class="w3-center w3-text-black">If It's Magic, av Stevie Wonder</h2>
 
-  <div class="w3-content w3-display-container">
+      <div class="w3-center w3-round-xlarge w3-container">
+        <audio id="audio">
+          <source src="malinHarpaIfitsmagic.mp3" type="audio/mpeg">
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()" class="fa fa-play w3-button w3-round-large w3-hover-white w3-black"> Lyssna</button>
+        <button class="fa fa-stop w3-button w3-round-large w3-hover-white w3-black" onclick="stop()"> Stopp</button>
 
-  <div class="w3-display-container w3-margin mySlides w3-animate-fade">
-    <a href="http://127.0.0.1:3000/exempel.html#begravningar"><img src="jpg/heaven2.jpg" class="w3-round-xlarge" style="width:100%">
-    <div class="w3-black w3-round-xlarge w3-display-middle w3-large w3-container w3-padding-16 w3-text-white">
-  Begravningar</a>
-    </div>
-  </div>
-
-  <div class="w3-display-container mySlides w3-margin w3-animate-fade">
-    <a href="http://127.0.0.1:3000/exempel.html#br%C3%B6llop"><img src="jpg/heaven3.jpg" class="w3-round-xlarge" style="width:100%">
-    <div class="w3-black w3-round-xlarge w3-display-middle w3-large w3-container w3-padding-16 w3-text-white">
-Bröllop</a>
-    </div>
-  </div>
-
-  <div class="w3-display-container mySlides w3-margin w3-animate-fade">
-    <a href="http://127.0.0.1:3000/exempel.html#dop"><img src="jpg/heaven.jpg" class="w3-round-xlarge" style="width:100%">
-    <div class="w3-round-xlarge w3-black w3-display-middle w3-large w3-container w3-padding-16 w3-text-white">Konserter</a>
-    </div>
-  </div>
+        </div>
+      </div>
+<h2 class="w3-center w3-text-black">If It's Magic, av Stevie Wonder</h2>
+<div class="w3-container w3-center w3-margin">
 
 
-
-
-
-  <button class="w3-button w3-hover-white w3-display-left w3-black w3-large" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-hover-white w3-display-right w3-large w3-black" onclick="plusDivs(1)">&#10095;</button>
-
-  </div>
-
-  <p class="w3-text-black w3-center"><b>Klicka på bilderna för mer info.</b></h2>
-  </p>
-<!-- vad gör jag?
-
-<div class="w3-row-padding">
-  <div class="w3-third w3-container w3-margin-bottom">
-    <img src="/jpg/harpist.jpg" alt="Jag" style="width:100%" class="w3-opacity-min">
-    <div class="w3-container w3-black w3-padding w3-round">
-      <h3 class="w3-center w3-round-xlarge"><b>Begravningar</b></h3>
-      <p><i>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</i></p>
-      <a class="w3-panel w3-border w3-round-xlarge w3-black w3-hover-white w3-bar-item w3-button" href="http://127.0.0.1:3000/malinHemsida20.html#begravningar">Läs mer...</a>
-    </div>
-  </div>
-
-  <div class="w3-third w3-container w3-margin-bottom">
-    <img src="/jpg/harpist.jpg" alt="Norway" style="width:100%" class="w3-round w3-opacity-min">
-    <div class="w3-container w3-black w3-padding w3-round">
-      <h3 class="w3-center w3-round-xlarge"><b>Dop</b></h3>
-      <p><i>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</i></p>
-      <a class="w3-panel w3-border w3-round-xlarge w3-black w3-hover-white w3-bar-item w3-button" href="http://127.0.0.1:3000/malinHemsida20.html#bröllop">Läs mer...</a>
-    </div>
-  </div>
-
-  <div class="w3-third w3-container w3-margin-bottom">
-    <img src="/jpg/harpist.jpg" alt="Norway" style="width:100%" class="w3-opacity-min">
-    <div class="w3-container w3-black w3-padding w3-round">
-      <h3 class="w3-center w3-round-xlarge"><b>Konserter</b></h3>
-      <p><i>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</i></p>
-      <a class="w3-panel w3-border w3-round-xlarge w3-black w3-hover-white w3-bar-item w3-button" href="http://127.0.0.1:3000/malinHemsida20.html#dop">Läs mer...</a>
-    </div>
-  </div>
+      <iframe class="w3-round-xlarge" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+              </iframe>
 </div>
 
--->
+    </div>
+  </div>
 
+  </div>
+
+-->
 
 <!-- PROJEKT 2023 -->
-<div id="portfolio" class="bgimg-2 w3-display-container">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PROJEKT 2023</span>
-  </div>
-</div>
-
-
-<div class="w3-black">
-
-  <div class="bgimg-2 w3-container w3-black">
-    <div class="w3-white w3-round-xlarge w3-content w3-container w3-panel" id="mig">
-
-      <h3 class="w3-center">Här kan du se...</h3>
-
-      <p class="w3-center"><em>...några av de projekt som jag för närvarande håller/hållit på med under 2023.</em></p>
-
-    </div>
-    </div>
-    <div class="bgimg-2 w3-row-padding w3-black">
-      <div class="w3-third w3-container w3-margin-bottom w3-padding">
-        <iframe class="video w3-round-xlarge" src="https://www.youtube.com/embed/tgbNymZ7vqY" style="width:100%">
-        </iframe>
-        <div class="w3-container w3-white w3-padding w3-round-xlarge">
-          <h3 class="w3-center w3-round-xlarge"><b>Solo-kyrkokonsert</b></h3>
-
-        </div>
-      </div>
-
-      <div class="w3-third w3-container w3-margin-bottom w3-padding">
-        <iframe class="video w3-round-xlarge" src="https://www.youtube.com/embed/tgbNymZ7vqY" style="width:100%">
-        </iframe>
-        <div class="w3-container w3-white w3-padding w3-round-xlarge">
-          <h3 class="w3-center w3-round-xlarge"><b>Solo-kyrkokonsert</b></h3>
-        </div>
-      </div>
-
-      <div class="w3-third w3-container w3-margin-bottom w3-padding">
-        <iframe class="video w3-round-xlarge" src="https://www.youtube.com/embed/tgbNymZ7vqY" style="width:100%">
-        </iframe>
-        <div class="w3-container w3-white w3-padding w3-round-xlarge">
-          <h3 class="w3-center w3-round-xlarge"><b>Solo-kyrkokonsert</b></h3>
-        </div>
-      </div>
-      <div class="bgimg-3 w3-container w3-black">
-        <div class="w3-round w3-content w3-container w3-panel" id="mig">
-
-        <a href="http://127.0.0.1:3000/cv.html">  <p class="w3-white w3-center w3-hover-black w3-border w3-round-xlarge">Konstnärligt CV</p></a>
-        </div>
-    </div>
-  </div>
-
-</div>
 
 
     <!--javascr -->
@@ -200,15 +101,16 @@ Bröllop</a>
   <!-- kanske länk till youtube-kanal?? -->
 
 <!-- Third Parallax Image with Portfolio Text -->
-<div id="kontakt" class="bgimg-1 w3-display-container w3-opacity">
+<div id="kontakt" class="bgimg-2 w3-display-container w3-opacity">
   <div class="w3-display-middle">
      <span class="w3-center w3-xxlarge w3-text-white w3-wide">KONTAKTA MIG</span>
-  </div>
 
+
+  </div>
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-text-black w3-content w3-container w3-padding" id="contact">
+<div class="w3-black w3-content w3-container w3-padding" id="contact">
   <h3 class="w3-center">KONTAKTINFORMATION</h3>
   <p class="w3-center"><em></em></p>
       <ul class="w3-ul w3-center">
@@ -218,7 +120,7 @@ Bröllop</a>
     <li><a href="https://www.instagram.com" target="_blank" class="fa fa-instagram w3-button w3-round"></a> <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook w3-button w3-round"></a></li>
     <li><a href="#home" class="w3-button w3-border w3-round-xlarge w3-hover-black"><i class="fa fa-arrow-up w3-margin-right"></i>Hem igen</a></li>
     </ul>
-
+  </div>
 
 <script src="malinHemsida.js"></script>
 
